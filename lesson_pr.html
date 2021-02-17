@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+        <title></title>
+　　　　　<!--ブラウザに表示されない文書情報の箇所-->
+    </head>
+    <body>
+        <!--ブラウザに表示されるコンテンツの箇所-->
+        <h1>h1タグによる記述です</h1>
+		<h2>h2タグによる記述です</h2>
+		<h3>h3タグによる記述です</h3>
+		<h4>h4タグによる記述です</h4>
+		<h5>h5タグによる記述です</h5>
+		<h6>h6タグによる記述です</h6>
+		<br>
+		<a href="https://camp.potepan.com/">ポテパンキャンプへ</a>
+		<br>
+		<br>
+		<img src="../docs/gitbook/images/sea.jpg" alt ="画像が表示されない時の代替テキスト">
+		<img src="" alt="画像が表示されないときはalt属性のテキストが表示">
+		<br>
+		<!-- <table>
+			<tr>
+				<th>ここにテキストなどを入れられます</th>
+				<th>ここにテキストなどを入れられます</th>
+			</tr>
+			<tr>
+				<td>ここにテキストなどを入れられます</td>
+				<td>ここにテキストなどを入れられます</td>
+			</tr>
+		</table> -->
+		<br>
+		<table>
+			<tr>
+				<th>果物名</th>
+				<th>値段(円)</th>
+				<th>備考</th>
+			</tr>
+			<tr>
+				<td>りんご</td>
+				<td>300</td>
+				<td>青森県産</td>
+			</tr>
+			<tr>
+				<td>バナナ</td>
+				<td>108</td>
+				<td>美味しい</td>
+			</tr>
+			<tr>
+				<td>キウイ</td>
+				<td>200</td>
+				<td>ビタミンたっぷり</td>
+			</tr>
+		</table>
+		<br>
+		<!-- <form action="送信先のURL">
+			<input type="フォームのタイプ">
+		</form> -->
+		<form action="sample_url">
+			<div>
+				<label>名前：</label><input type="text">
+			</div>
+			<div>
+				<label>メールアドレス：</label><input type="text">
+			</div>
+			<div>
+				<label>設定するパスワード：</label><input type="password">
+			</div>
+			<div>
+				<label>性別：</label>
+				男<input type="radio" name="sex">
+				女<input type="radio" name="sex">
+			</div>
+			<div>
+				<label>話せる言葉(複数選択可)：</label>
+				<input type="checkbox" name = "language" value = "">日本語
+				<input type="checkbox" name = "language" value ="">英語
+				<input type="checkbox" name = "language" value ="">中国語
+				<input type="checkbox" name = "language" value ="">フランス語
+				<input type="checkbox" name = "language" value ="">イタリア語
+			</div>
+			<div>
+				<label>入力項目をクリア</label>
+				<input type="reset">
+			</div>
+			<div>
+				<label>入力内容を送信する</label>
+				<input type="submit">
+			</div>
+		</form>
+		<br>
+		<!-- <button type="ボタンの種類">ここのテキストがボタンの文言になります</button> -->
+		<br>
+		<div class="result">
+			<form action="sample">
+				<input type="text">
+				<button type="submit">送信ボタン</button>
+				<button type="reset">リセットボタン</button>
+			</form>
+			<button type="button">通常のボタン</button>
+			<br>
+			<h6>画像もボタンにできます。画像を押下してみてください</h6>
+			<button class="btn-size">
+				<img src="https://www.evernote.com/l/AKui8Ycf2IZMRJ60Vr70TXc-UYOSs5utTYUB/image.jpg" alt="ボタン画像">
+			</button>
+		</div>
+		<br>
+		<br>
+		<h6>ウェブサイト作成者一覧</h6>
+		<ul>
+			<li>htmlさん</li>
+			<li>cssさん</li>
+			<li>Javascriptくん</li>
+			<li>Rubyちゃん</li>
+			<li>Rails様</li>
+		</ul>
+		
+		<h6>リスト表示は画面幅で文字が改行したときインデントが揃います</h6>
+		<ul>
+			<li>リスト表示ではインデントが揃います</li>
+			<li>お手元のパソコン画面で試してみましょう</li>
+			<li>リスト表示では画面の幅が狭くなってもインデントが揃いますので、綺麗に表示されます</li>
+			<li>自分のパソコンの画面幅を自由に変えてみて文章の行頭が揃っていることを確認してみましょう</li>
+			<li>このように文章が長くて改行をしたとしてもリスト表示では改行した時のインデントが揃いますので、綺麗に項目を表示することができるのです</li>
+		</ul>
+		<br>
+		<!--
+		<section>
+			セクションとなる章や節をここに記入しましょう。
+		</section>
+		<atricle>
+			記事全体をここに記入します
+		</atricle>
+		<dvi>
+			他の適切なタグがなくグルーピングしたい場合に記入します。
+		</dvi>
+		-->
+		<br>
+		<article>
+			<h3>プログラミングは楽しいけど難しい</h3>
+			<p>
+				私は今、プログラミングの勉強をしてその難しさと奥深さを体験している。
+				HTMLやCSSといったウェブサイトを構成する言語を勉強を頑張っていつか自分だけのオリジナルサイトを作ってみんなに見てもらいたい
+			</p>
+		</article>
+		<br>
+		<atricle>
+			<h3>ウェブデザインで大活躍「HMTL」「CSS」「Javascript」</h3>
+			<section>
+				<h5>「HTML」を学んでみた。</h5>
+				<p>
+					htmlはウェブサイトを構成する大切な知識で様々なタグを組み合わせてウェブサイトを構築していくのが楽しかった。
+				</p>
+			</section>
+			<sectio>
+				<h5>「CSS」を学んでみた。</h5>
+				<p>
+					CSSを学ぶことによってウェブサイトのデザインを自分で決めることができて、勉強すればするほど味のあるサイトになるのが楽しかった。
+				</p>
+			</sectio>
+			<section>
+				<h5>「Javascript」を学んでみた。</h5>
+				<p>
+					Javascriptではウェブサイトに様々な動きをつけることができた。スライドなど動きのあるウェブサイトは洗練されている感じがあって憧れた。
+				</p>
+			</section>
+		</atricle>
+		<br>
+		<div>
+			<p>Rubyを学んでウェブサービスを作りたい</p>
+		</div>
+		<div>Railsを学んでウェブサービスを作りたい</div>
+		<br>
+		<br>
+		<!-- テキストをコメントアウトする練習 -->
+		<h1>コメント文の練習するコードです</h1>
+		<ul>
+			<li>この文章は表示されます</li>
+			<!--
+				<li>この文章は表示されません</li>
+				<li>この文章は表示されません</li>
+			-->
+			<li>この文章は表示されます</li>
+		</ul>
+		<br>
+		<p>/* cssの場合はこの両サイドで囲まれた箇所がコメント文になります。 */</p>
+	</body>
+</html>
+
