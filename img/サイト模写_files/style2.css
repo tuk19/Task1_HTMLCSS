@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+}
+.header {
+    background-color: red;
+    margin-bottom: 0px;
+}
+
+.header_logo_sp {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 180px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.right_float {
+    z-index:3;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    float: right;
+}
+
+
+.left_float li {
+    z-index: 3;
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    margin: 5px 10px;
+    
+}
+
+.float_cleat {
+    clear: both;
+}
+
+.bold {
+    font-family: "メイリオ";
+    font-weight: bold;
+}
+
+
+.Counseling {
+    display: block;
+    color: white;
+    background-color: #f79314;
+    float:left;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 12px 15px;
+}
+
+
+/* =====================================
+ Module: top-hero
+ ===================================== */
+ .section-top-hero {
+    padding-top: 190px;
+    padding-bottom: 28px;
+    background-image: url("/img/top-hero.png");
+    background-size: auto 100%;
+    background-position: right 0;
+    background-repeat: no-repeat;
+  }
+  .section-top-hero .proviso {
+    color: #888;
+    font-size: 10px;
+    max-width: 512px;
+    padding-top: 132px;
+  }
+  .top-hero-box {
+    position: relative;
+    max-width: 337px;
+  }
+  .top-hero-box > * + * {
+    margin-top: 30px;
+  }
+  .top-hero-box .top-hero-heading > img {
+    width: 100%;
+    height: auto;
+  }
+  .top-hero-box .top-hero-text {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1.7;
+  }
+  .top-hero-box .top-hero-text > span {
+    color: #f79314;
+  }
+  .top-hero-box .No1-notation {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: -170px;
+  }
+  .top-hero-box .No1-notation img {
+    width: 154px;
+    height: 154px;
+  }
+  @media screen and (max-width: 767px) {
+    .section-top-hero {
+      padding-top: 258px;
+      padding-bottom: 12px;
+      background-image: url(../images/top-hero-sp.png);
+    }
+    .section-top-hero .proviso {
+      padding-top: 24px;
+    }
+    .top-hero-box {
+      max-width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .top-hero-box > * + * {
+      margin-top: 20px;
+    }
+    .top-hero-box .top-hero-text {
+      font-size: 15px;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .section-top-hero .top-hero-text {
+      text-align: center;
+    }
+    .section-top-hero .top-hero-box .No1-notation {
+      top: -98px;
+      left: -24px;
+    }
+    .section-top-hero .top-hero-box .No1-notation img {
+      width: 88px;
+      height: 88px;
+    }
+  }
